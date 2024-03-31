@@ -1,0 +1,69 @@
+$primary-color: rgba(135, 214, 141, 0.8);
+$sub-color: rgba(247, 255, 246);
+$gradation-color: rgba(188, 235, 203, 0.7);
+$hover-color: rgba(110, 175, 115, 0.8);
+$warning-color: red;
+$prev-gradation-color:rgb(113, 179, 255);
+
+.margin {
+  margin-bottom: 5%;
+}
+
+.primary{
+  display: block;
+  color: $prev-gradation-color;
+  background-color: white;
+  border: 1px solid $prev-gradation-color;
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  padding: 1%;
+
+  &:hover {
+    border-color: $prev-gradation-color;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+}
+
+.success {
+  display: block;
+  color: $primary-color;
+  background-color: white;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  padding: 1%;
+}
+
+.success:hover {
+  background-color: $hover-color;
+  color: white;
+  border-color: $primary-color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.warning {
+  display: block;
+  color: $warning-color;
+  background-color: white;
+  border: 1px solid $warning-color;
+  border-radius: 10px;
+  min-width: 80px;
+  text-align: center;
+  padding: 1%;
+}
+
+.warning:hover {
+  background-color: $warning-color;
+  color: white;
+  border-color: $warning-color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
