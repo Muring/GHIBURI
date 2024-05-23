@@ -37,8 +37,35 @@
 <a name="layout"></a>
 
 ### 📢 Site Layout
-<img src="" alt="main" />
+
+### 메인
+
+<img src="./README/main0.png" alt="main" />
+<img src="./README/main1.png" alt="main" />
  
+### 로그인 / 회원가입
+
+<img src="./README/login.png" alt="login" />
+<img src="./README/signup.png" alt="signup" />
+
+### 커뮤니티
+
+<img src="./README/community0.png" alt="community" />
+
+### 지도
+
+<img src="./README/map0.png" alt="map" />
+<img src="./README/map1.png" alt="map" />
+
+### 매물 상세
+
+<img src="./README/detail0.png" alt="detail" />
+<img src="./README/detail1.png" alt="detail" />
+
+### 매물 비교
+
+<img src="./README/compare.png" alt="compare" />
+
 <a name="function"></a>
 
 ## ⚙️ Function
